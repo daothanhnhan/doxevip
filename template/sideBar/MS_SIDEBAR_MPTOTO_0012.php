@@ -1,0 +1,1 @@
+<img src="/images/<?= $rowCat['productcat_sub'] ?>" alt="" width="100%">

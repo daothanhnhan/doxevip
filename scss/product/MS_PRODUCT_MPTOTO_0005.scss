@@ -1,0 +1,80 @@
+.gb-noithatvaphukien_mptoto{
+  .gb-bontamvasentam_mptoto-title{
+    background: url("../images/noithat.jpg") no-repeat center center;
+    background-size:  cover;
+    padding: 75px;
+    margin-bottom: 30px;
+    @media screen and (max-width: 991px) {
+      padding: 75px 15px;
+    }
+    h2{
+      a{
+        display:  block;
+        font-size: 24px;
+        color: $color-main;
+        text-transform:  uppercase;
+        font-weight: 600;
+      }
+    }
+    p{
+      display: block;
+      font-size: 14px;
+      line-height: 25px;
+      color: #000;
+      margin-top: 20px;
+    }
+  }
+
+  /*product item*/
+  .gb-product-item_mptoto{
+    //border: 1px solid #ccc;
+    margin-bottom: 30px;
+    &:hover{
+      .gb-product-item-img{
+        .gb-product-item-img-main{
+          display:  none;
+        }
+        .gb-product-item-img-replate{
+          transform: translateY(0);
+          position: relative;
+        }
+      }
+    }
+    .gb-product-item-img{
+      position: relative;
+      overflow: hidden;
+      .gb-product-item-img-main{
+        img{
+          width: 100%;
+          height:  262px;
+        }
+      }
+      .gb-product-item-img-replate{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        transform: translateY(-101%);
+        transition: all 0.25s ease;
+        img{
+          width: 100%;
+          height:   262px;
+        }
+      }
+    }
+    .gb-product-item-img-text{
+      text-align: center;
+      background: #f1f1f1;
+      padding: 13px 0;
+      h2{
+        a{
+          display:  block;
+          font-weight: 700;
+          color: #333;
+          font-size: 14px
+        }
+      }
+    }
+  }
+}

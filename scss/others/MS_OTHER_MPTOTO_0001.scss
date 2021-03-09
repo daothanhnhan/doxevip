@@ -1,0 +1,102 @@
+/** Tư Vấn **/
+#Content-TuVan_mptoto{
+  background-image:url(../images/a.png);
+  background-repeat: repeat;
+  background-position: center;
+  padding:40px 0;
+}
+.titleBoxFace_mptoto{
+  width:100%;
+  text-align:center;
+  font-size:27px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+.pageFBHome_mptoto{
+  margin-top: 25px;
+}
+.coverFaceHome{
+  margin-top:10px;
+  height:450px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+.leftTV_mptoto img{
+  width:70%;
+  margin:0 15%;
+}
+.titleTV_mptoto{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size:25px;
+  color:#000;
+  font-weight:normal;
+  width:100%;
+  text-align:center;
+}
+.contentTV_mptoto{
+  margin-bottom: 10px;
+  font-size: 16px;
+  color:#333;
+  line-height: 24px;
+}
+.listTV_mptoto{
+  width:100%;
+  margin-top:10px;
+}
+.listTV_mptoto li{
+  color: white;
+  background: #009cde;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  line-height: 33px;
+  font-size: 14px;
+  display:inline-block;
+  border-radius: 3px;
+}
+.listTV_mptoto li i{
+  font-size: 18px;
+  margin-right: 15px;
+  vertical-align: middle;
+  float:left;
+  margin-top:7px;
+}
+.listPerson_mptoto{
+  width:100%;
+  margin-top:30px;
+}
+.listPerson_mptoto li{
+  width:50%;
+  float: left;
+}
+.imgPerson_mptoto{
+  width:25%;
+  float: left;
+  border-radius: 50%;
+  margin-right:5%;
+  border:1px solid #666;
+  box-sizing:border-box;
+}
+.inforPerson_mptoto{
+  float:left;
+  width:70%;
+}
+.namePerson_mptoto{
+  width:100%;
+  text-align:center;
+  color:#000;
+  text-transform:uppercase;
+  font-size:14px;
+  font-weight:bold;
+  margin-top:15px;
+}
+.phonePerson_mptoto{
+  display:  block;
+  width:100%;
+  text-align:center;
+  color:#9B0F0F;
+  font-size:18px;
+  margin-top:5px;
+  font-weight:bold;
+}

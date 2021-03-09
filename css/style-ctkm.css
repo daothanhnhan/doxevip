@@ -1,0 +1,66 @@
+.gb-header_mptoto, .gb-article-share-box{
+  display: none;
+}
+.fixedSideHidden{
+  display: none;
+}
+.boxBannerTopHeaderHidden{
+  display: none !important;
+}
+.coverMenuFixedPageSale{
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+} 
+.linkMFPS{ 
+  display: list-item;
+  text-align: -webkit-match-parent;
+  padding: 12px 7px;
+  color: #000 !important;
+  background-color: #dedede;
+  border-bottom: 1px dashed #666;
+  text-decoration: none !important;
+}
+.listMFPS li:last-child .linkMFPS{
+  border-bottom: 0px;
+}
+.linkMFPS:hover, .linkMFPSSlected{
+  background-color: #da251c;
+  color: #fff !important;
+  border-bottom: 1px dashed #fff;
+  text-decoration: none !important;
+}
+.Content-Main_SalePage{
+  float: left;
+  width: 100%;
+}
+.BoxSale{  
+  float: left;
+  width: 100%; 
+  margin-bottom: 50px;
+}
+.avtBoxSalePage, .avtBoxSalePage img{
+  float: left;
+  width: 100%;
+}
+.BoxSale01Col, .BoxSale01Col img, .BoxSale01Col a, .BoxSale02Col, .BoxSale02Col img, .BoxSale02Col a, .BoxSale03Col, .BoxSale03Col img, .BoxSale03Col a, .BoxSale04Col, .BoxSale04Col img, .BoxSale04Col a{  
+  float: left;
+  width: 100%;
+}
+.colSale01{
+  float: left;
+  width: 100%;  
+}
+.colSale02{
+  float: left;
+  width: 50%;
+}
+.colSale03{
+  float: left;
+  width: 33.3333333%;  
+}
+.colSale04{
+  float: left;
+  width: 25%;
+}

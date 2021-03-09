@@ -1,0 +1,20 @@
+/*FOOTER 4*/
+.footer-4{
+  ul{
+    li{
+      border-left: 1px solid $color-main;
+      margin-bottom: 10px;
+      a{
+        display: block;
+        font-size: 14px;
+        color: $color-1;
+        line-height: 26px;
+        padding-left: 10px;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.footer_contact_infos_mptoto{
+  ul{
+    li{
+      display:  block;
+      font-size: 14px;
+      line-height: 35px;
+      color: $color-white;
+      a{
+        display:  block;
+        font-size: 14px;
+        line-height: 25px;
+        color: $color-white;
+      }
+      i{
+        width: 20px;
+      }
+      span{
+        text-decoration: underline;
+      }
+    }
+  }
+}

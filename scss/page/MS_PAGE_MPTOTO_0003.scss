@@ -1,0 +1,51 @@
+.gb-chinhsach-vanchuyen{
+  padding: 50px 0;
+  .gb-chinhsach-vanchuyen-body{
+    h1{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      color: #333;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    ul{
+      li{
+        display: block;
+        color: #333;
+        font-size: 16px;
+        line-height: 26px;
+        span{
+          font-size: 16px;
+          font-weight: bold;
+          text-align: left;
+          color: #333;
+        }
+      }
+    }
+    h2{
+      font-size: 18px;
+      font-weight: bold;
+      text-align: left;
+      color: #333;
+      margin: 20px 0;
+      text-transform: uppercase;
+    }
+    h4{
+      margin: 15px 0;
+      span{
+        font-weight: bold;
+        color: #333;
+        font-size: 14px;
+        text-decoration: underline;
+      }
+    }
+    p{
+      display: block;
+      color: $color-grey;
+      font-size: 14px;
+      line-height: 26px;
+      text-align:  justify;
+    }
+  }
+}

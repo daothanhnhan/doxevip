@@ -1,0 +1,108 @@
+.gb-six-service{
+  ul{
+    li{
+      margin: 75px 0;
+      &:nth-child(1){
+        .gb-dichvu-tuyetvoi-item{
+          background: #e6d8ad;
+        }
+      }
+      &:nth-child(2){
+        .gb-dichvu-tuyetvoi-item{
+          background: #e6adbc;
+        }
+      }
+      &:nth-child(3){
+        .gb-dichvu-tuyetvoi-item{
+          background: #add8e6;
+        }
+      }
+      &:nth-child(6){
+        .gb-dichvu-tuyetvoi-item{
+          background: #e6d8ad;
+        }
+      }
+      &:nth-child(4){
+        .gb-dichvu-tuyetvoi-item{
+          background: #e6adbc;
+        }
+      }
+      &:nth-child(5){
+        .gb-dichvu-tuyetvoi-item{
+          background: #add8e6;
+        }
+      }
+    }
+  }
+}
+
+.gb-gio-mo-cua{
+  padding: 80px 0;
+  .gb-gio-mo-cua-info{
+    background: #e4d7af;
+    padding: 20px;
+    border-top: 3px solid $color-main;
+    .heading{
+      display: block;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      text-align: center;
+      letter-spacing: normal;
+      text-transform: uppercase;
+      color: $color-main;
+      margin-bottom: 30px;
+    }
+    table{
+      border: 1px solid $color-white;
+      tr{
+        th{
+          border: 1px solid $color-white;
+          &:last-child{
+            text-align: right;
+          }
+        }
+      }
+    }
+    .btn-medium{
+      display: block;
+      position: relative;
+      font-size: 1.4rem;
+      line-height: 1.42857;
+      font-weight: normal;
+      font-style: normal;
+      letter-spacing: 1px;
+      color: rgb(255, 255, 255);
+      transform: translateZ(0px);
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px;
+      transition-property: color;
+      transition-duration: 0.3s;
+      padding: 15px 20px;
+      margin: 0px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: transparent;
+      border-image: initial;
+      text-align: center;
+      background: $color-main;
+      &:hover::before {
+        transform: scaleX(1);
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        transform: scaleX(0);
+        transform-origin: 50% center 0px;
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+        background: rgb(0, 0, 0);
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+
+.gb-home-introduct-mptoto-tamnhin-sumenh{
+  padding: 70px 0;
+  background-color: #fffcf4;
+  .contentVideoGB_mptoto{
+    margin-top: 30px;
+  }
+  .titlCTA_mptoto{
+    display:  block;
+    text-align:center;
+    font-size:36px;
+    font-weight:bold;
+    color:#0c8a73;
+  }
+
+  .lineCTA_mptoto {
+    width: 50%;
+    margin: 15px 25% 10px 25%;
+  }
+
+  .listCTA_mptoto{
+    width:100%;
+  }
+  .listCTA_mptoto li{
+    width:100%;
+    margin-top:10px;
+    font-size:16px;
+    position:relative;
+    padding-left:40px;
+    line-height:1.4;
+  }
+  .listCTA_mptoto li:before{
+    content:"+";
+    font-size:20px;
+    font-weight:bold;
+    position:absolute;
+    top:0;
+    left:0;
+    color:#AA0F0F;
+    width:22px;
+    height:22px;
+    line-height:22px;
+    border:2px solid #AA0F0F;
+    text-align:center;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgCTA{
+    width: 90%;
+    margin-right: 10%;
+    float: right;
+  }
+  .imgCTA img{
+    width: 100%;
+  }
+  .linkCTA{
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-align: center;
+    float: none;
+    text-transform: uppercase;
+    background: none repeat scroll 0 0 #e2132b;
+    box-shadow: 0 -5px 0 0 #941423 inset;
+  }
+  .linkCTA:hover{
+    color: #fff;
+    text-decoration: underline;
+  }
+}

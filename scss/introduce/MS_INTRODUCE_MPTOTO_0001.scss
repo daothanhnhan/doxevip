@@ -1,0 +1,29 @@
+.gb-home-introduct_mptoto{
+  padding:  50px 0;
+  .gb-home-introduct_mptoto-left{
+    h2{
+      font-size: 24px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+    }
+    p{
+      text-align: justify;
+      font-size: 15px;
+      line-height: 30px;
+      color: #7a7a7a;
+    }
+    .xemtiep_mptoto{
+      display:  inline-block;
+      background: $color-main;
+      padding: 12px 30px;
+      color: #fff;
+      margin-top: 10px;
+    }
+  }
+  .gb-home-introduct_mptoto-right{
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+}

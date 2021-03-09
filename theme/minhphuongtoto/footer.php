@@ -1,0 +1,1 @@
+<?php include_once DIR_FOOTER."MS_FOOTER_MPTOTO_0001.php";  ?>

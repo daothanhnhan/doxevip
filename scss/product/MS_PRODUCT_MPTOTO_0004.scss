@@ -1,0 +1,228 @@
+.gb-page-product-mptoto{
+  padding: 50px 0;
+}
+.cover_item_product_mptoto{
+  border: 2px solid #e6e6e6;
+  position: relative;
+  margin-bottom: 30px;
+  transition:  all 0.5s;
+  &:hover {
+    -webkit-box-shadow: 0 3px 10px 0 rgba(105,98,105,1);
+    -moz-box-shadow: 0 3px 10px 0 rgba(105,98,105,1);
+    box-shadow: 0 3px 10px 0 rgba(105,98,105,1);
+    position: relative;
+    transition: all 0.3s;
+    border-color: $color-main;
+    .borderShow.borderShow1, .borderShow.borderShow3 {
+      width: calc(100% - 20px);
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+    }
+    .borderShow.borderShow2, .borderShow.borderShow4 {
+      height: calc(100% - 20px);
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+    }
+    .box_hidden_des {
+      opacity: 1;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      .footer_hidden_des .codeShow{
+        margin-top: 10px;
+      }
+    }
+  }
+  .borderShow{
+    position: absolute;
+    background-color: #fff;
+    z-index: 1000;
+    &.borderShow1{
+      top: 10px;
+      height: 2px;
+      left: 50%;
+      width: 0;
+      transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+    }
+    &.borderShow2{
+      right: 10px;
+      width: 2px;
+      top: 50%;
+      height: 0%;
+      transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+    }
+    &.borderShow3{
+      bottom: 10px;
+      height: 2px;
+      left: 50%;
+      width: 0%;
+      transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+    }
+    &.borderShow4{
+      left: 10px;
+      width: 2px;
+      top: 50%;
+      height: 0%;
+      transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+    }
+  }
+  .box_hidden_des{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    .footer_hidden_des{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      padding: 0 10px;
+      transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      .nameShow{
+        width: 70%;
+        margin: 0 15%;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+        border-top: 4px double #fff;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+      }
+      .codeShow{
+        width: 70%;
+        margin: 0 15%;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 4px double #fff;
+        margin-top: -50px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+      }
+      .sourcePriceShow{
+        color: #f1f1f1;
+        width: 70%;
+        margin: 10px 15%;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: line-through;
+      }
+      .viewShow{
+        color: #f1f1f1;
+        font-size: 16px;
+        text-align: center;
+      }
+      .linkShow {
+        display: block;
+        width: 50%;
+        text-align: center;
+        color: #fff;
+        padding: 7px 12px;
+        border: 2px solid #fff;
+        margin: 30px 25% 0 25%;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: rgba(0,0,0,0);
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        cursor: pointer;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-white;
+          background: $color-main;
+        }
+      }
+    }
+  }
+  .box_image_product{
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+    a{
+      width: 100%;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .box_info_product{
+    position: relative;
+    padding: 10px 5px;
+    overflow: hidden;
+    .link_name_product{
+      display: block;
+      color: #1A7484;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 10px;
+    }
+  }
+}

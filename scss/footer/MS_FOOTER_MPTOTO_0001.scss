@@ -1,0 +1,139 @@
+.gb-line{
+  border-right: 1px solid $color-grey;
+}
+.footer-default{
+  background-image: url('../images/bgFooter.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: #969696;
+  clear: both;
+}
+.footer-main-content{
+  padding: 50px 0;
+  background:  #171616;
+  .logo-footer{
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .footer-main-content-element{
+    .widget-title{
+      font-size: 18px;
+      color: $color-white;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+
+    .foot-danhmuc-noidung{
+      ul{
+        li{
+          margin-bottom: 5px;
+          a{
+            display:  block;
+            font-size: 14px;
+            line-height: 25px;
+            color: $color-white;
+          }
+        }
+      }
+    }
+    .footer-danhmucsanpham{
+      li{
+        margin-bottom: 5px;
+        a{
+          display:  block;
+          font-size: 14px;
+          line-height: 25px;
+          color: $color-white;
+        }
+      }
+    }
+  }
+  .foote-intro-mptoto{
+    p{
+      text-align: justify;
+      font-size: 15px;
+      line-height: 25px;
+      color: #7a7a7a;
+    }
+  }
+  .foote-lienhe-mptoto{
+    ul{
+      li{
+        text-align: justify;
+        font-size: 15px;
+        line-height: 25px;
+        color: #7a7a7a;
+        span{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.copyright-area{
+  overflow: hidden;
+  background-color: #f1f1f1;
+  .copyright-content{
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+  }
+  p{
+    color: $color-1;
+    text-align: center;
+  }
+}
+.foote-thongtin-mptoto{
+  ul{
+    li{
+      margin-bottom: 5px;
+      a{
+        display:  block;
+        font-size: 14px;
+        line-height: 25px;
+        color: $color-white;
+      }
+    }
+  }
+}
+
+.foote-khachhang-mptoto{
+  ul{
+    li{
+      margin-bottom: 5px;
+      a{
+        display:  block;
+        font-size: 14px;
+        line-height: 25px;
+        color: $color-white;
+      }
+    }
+  }
+}
+
+.foote-dichvukhac-mptoto{
+  ul{
+    li{
+      margin-bottom: 5px;
+      a{
+        display:  block;
+        font-size: 14px;
+        line-height: 22px;
+        color: $color-white;
+        padding: 0 5px;
+      }
+    }
+  }
+}
+.row3_footer_mptoto{
+  padding: 20px 0;
+  border-top: 1px solid #cccccc;
+  .list_bank_mptoto{
+    li{
+      display:  inline-block;
+    }
+  }
+}

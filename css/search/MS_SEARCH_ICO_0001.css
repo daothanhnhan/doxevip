@@ -1,0 +1,30 @@
+/* search */
+.box_search_pc {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .box_search_pc input {
+    padding: 12px 10px;
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .box_search_pc input:focus {
+      width: 100%;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      border-color: #A24E0F; }
+  .box_search_pc button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 13px 7px;
+    background: #fff;
+    color: #A24E0F;
+    border: none;
+    outline: none; }

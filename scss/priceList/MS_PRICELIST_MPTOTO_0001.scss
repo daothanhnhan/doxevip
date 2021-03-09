@@ -1,0 +1,185 @@
+#Content-boxPriceHome_mptoto{
+  padding:50px 0;
+}
+
+.titlePriceHome_mptoto{
+  position: relative;
+  line-height: 50px;
+  margin: 0;
+  font-size: 35px;
+  color: #666;
+  font-weight: bold;
+  text-transform: capitalize;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.titlePriceHome_mptoto:after, .titlePriceHome_mptoto:before{
+  position: absolute;
+  content: '';
+  width: 600px;
+  height: 12px;
+  background: url(/images/heading-arrow.png) no-repeat;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+}
+.titlePriceHome_mptoto:after{
+  right:-350px;
+}
+.titlePriceHome_mptoto:before{
+  left:-350px;
+}
+.desPriceHome_mptoto{
+  text-align: center;
+  margin: 5px 0;
+  color: #333;
+  padding: 0  5%;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.desPriceHome_mptoto span{
+  font-weight: bold;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 0 5px;
+}
+.rowPriceHome_mptoto{
+  margin-top: 50px;
+}
+.colPriceHome_mptoto{
+  @media screen and (max-width: 991px) {
+    margin-bottom:  30px;
+  }
+}
+.colPriceHome_mptoto:last-child{
+  margin-right: 0;
+}
+.colPH01_mptoto .headerPH_mptoto{
+  background-color: #0a7705;
+}
+.colPH01_mptoto .namePH_mptoto{
+  background-color: #17c50e;
+}
+.colPH02_mptoto .headerPH_mptoto{
+  background-color: #ac0d0e;
+}
+.colPH02_mptoto .namePH_mptoto{
+  background-color: #e22424;
+}
+.colPH01_mptoto, .colPH03_mptoto{
+  margin-top: 30px;
+}
+.colPH02_mptoto{
+  transform: scale(1.03);
+  -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 0 7px 0 rgba(0,0,0,0.25);
+  box-shadow: 0 0 7px 0 rgba(0,0,0,0.25);
+}
+.colPH03_mptoto .headerPH_mptoto{
+  background-color: #d49706;
+}
+.colPH03_mptoto .namePH_mptoto{
+  background-color: #f5bd14;
+}
+
+.colPH02_mptoto{
+  position: relative;
+}
+.colPH02_mptoto:after{
+  position: absolute;
+  right: -13px;
+  top: -13px;
+  width: 130px;
+  height: 131px;
+  background-image: url(../images/labelPH.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.linkPH_mptoto {
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-align: center;
+  float: none;
+  text-transform: uppercase;
+}
+
+.colPH01_mptoto .linkPH_mptoto{
+  background: none repeat scroll 0 0 #17c50e;
+  box-shadow: 0 -3px 0 0 #0a7705 inset;
+
+}
+.colPH02_mptoto .linkPH_mptoto{
+  background: none repeat scroll 0 0 #e22424;
+  box-shadow: 0 -3px 0 0 #ac0d0e inset;
+}
+.colPH03_mptoto .linkPH_mptoto{
+  background: none repeat scroll 0 0 #f5bd14;
+  box-shadow: 0 -3px 0 0 #d49706 inset;
+}
+
+.linkPH_mptoto:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+.headerPH_mptoto{
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+}
+.namePH_mptoto{
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 25px 0px;
+}
+.namePH_mptoto span{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+}
+.bottomPH_mptoto{
+  padding: 25px 15px;
+  background-color: #f9f9f9;
+}
+.listContentPH_mptoto{
+  width: 100%;
+}
+.listContentPH_mptoto li{
+  position: relative;
+  width: 100%;
+  font-size: 14px;
+  padding: 7px 0px;
+  padding-left: 20px;
+  letter-spacing: -0.4px;
+  border-bottom: 1px dashed #ccc;
+}
+.listContentPH_mptoto li:before{
+  position: absolute;
+  left: -5px;
+  top: 10px;
+  height: 15px;
+  width: 15px;
+  content: "";
+  background-image: url("../images/tickPH.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

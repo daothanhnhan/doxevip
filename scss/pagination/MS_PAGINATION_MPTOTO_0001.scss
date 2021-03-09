@@ -1,0 +1,56 @@
+//PAGINATION
+.loop-pagination{
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  li{
+    float: left;
+    margin-left: -1px;
+    @media screen and (max-width: 991px) {
+      margin-left: 1px;
+    }
+    &:first-child{
+      margin-left: 0;
+    }
+    a{
+      &.page-numbers {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        line-height: 1.06;
+        text-align: center;
+        color: #666666;
+        border: 1px solid #e0e0e0;
+        padding: 10px 15px;
+        transition:  all 0.5s;
+        @media screen and (max-width: 767px) {
+          width: 35px;
+          height: 35px;
+        }
+        &:hover{
+          background: $color-main;
+          color: #fff;
+          border-color: $color-main;
+        }
+      }
+      &.current{
+        background: $color-main;
+        color: #fff;
+        border-color: $color-main;
+      }
+      &.prev{
+        border: 1px solid #E0E0E0;
+        padding: 10px 18px;
+      }
+      &.next{
+        border: 1px solid #E0E0E0;
+        padding: 10px 18px;
+      }
+    }
+  }
+}

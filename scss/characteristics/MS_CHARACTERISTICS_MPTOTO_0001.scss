@@ -1,0 +1,53 @@
+.gb-icon-box-characteristics_mptoto{
+  ul{
+    padding: 30px 0;
+    margin-bottom: 30px;
+    display:  flow-root;
+    li{
+      border-right: 1px solid $color-grey;
+      &:last-child{
+        border-right:  none;
+      }
+      .item-icon{
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin:  auto;
+        font-size: 36px;
+        float: left;
+      }
+      .item-text{
+        padding-left: 60px;
+      }
+      h3{
+        a{
+          display:  block;
+          text-align: left;
+          color: $color-6;
+          font-size: 14px;
+          text-transform:  uppercase;
+          line-height: 25px;
+          font-weight: 700;
+          @media screen and (max-width: 991px) {
+            font-size: 18px;
+          }
+        }
+      }
+      p{
+        font-size: 13px;
+        color: $color-grey;
+        line-height: 24px;
+        text-align: left;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        @media screen and (max-width: 991px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,341 @@
+
+@media screen and (max-width: 1650px) {
+  .fixBodyBanner{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1200px) { 
+  .gb-header_mptoto-topbar .logo-mptoto {
+    width: 130px;
+  }
+  .titleBCH { 
+    font-size: 13px; 
+    }
+    .linkBCH { 
+    font-size: 16px;
+  }
+  .coverBoxCallHeader { 
+    width: 130px;
+    padding: 3px 5px;
+}
+.titleLLCH{
+  font-size: 12px;
+}
+.coverLLCH02 {
+    width: 105px;
+}
+.coverLLCH01 {
+    width: 125px;
+}
+.titleLLCH { 
+    font-size: 12px;
+    line-height: 30px
+  }
+  .boxLLCH { 
+    font-size: 13px;
+}
+.gb-header-search_mptoto { 
+    width: 100%;
+    margin-top: 3px;
+}
+
+.mainImgBoxPDH{
+  height: 168px;
+}
+.coverBoxPDH { 
+    /*height: 337px;*/
+  }
+
+
+.span_tab2 a, .span_tab a, .span_tab3 a { 
+    padding: 10px 15px;
+    }
+.gb-header-search_mptoto .vk-newlist-banner-test-search {
+    width: 95%;
+    margin-left: 5%;
+    }
+#nav_horizontal .nav_horizontal_item {
+    float: left;
+    height: 40px;
+    margin-left: 15px;
+    display: flex;
+    }
+
+.nav_horizontal_text p.newBigText {
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .nav_horizontal_text p { 
+    font-size: 11px;
+}
+.nameOtherHome { 
+    font-size: 20px;
+}
+.titleFormMailHome { 
+    font-size: 18px;
+    }
+.subFormMailHome {
+float: left;
+width: 100%;
+font-size: 13px;
+}
+.boxShowHotHome a{
+  font-size: 15px;
+}
+.titleColFooter {
+  font-size: 15px;
+  }
+  .listLinkFooter li a { 
+    font-size: 14px;
+}
+.listContactFooter li p { 
+    font-size: 14px; 
+    line-height: 16px;
+}
+.listContactFooter li span { 
+    width: 68px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.contentContactFooter { 
+    line-height: 17px;
+    font-size: 13px; 
+}
+.boxNewsHome_top { 
+    height: 195px; 
+}
+#icon-fixed-left {
+    width: 30px;
+    }
+#icon-fixed-left a img {
+    width: 16px;
+}
+
+.visible-sm {
+    display: none !important;
+}
+}
+
+@media screen and (max-width: 992px) { 
+  .listInforTopHeader li p {
+    font-size: 13px;
+  }
+
+  .gb-header-search_mptoto .vk-newlist-banner-test-search {
+    width: 100%;
+    margin-left: 0%;
+}
+  .coverLLCH01{
+    display: none;
+  }
+  .gb-header_mptoto-sticky .logo-mptoto{
+        width: 120px !important;
+  }
+  .gb-header-search_mptoto .vk-newlist-banner-test-search input {
+    width: 85%;
+  }
+  .gb-header-search_mptoto .vk-newlist-banner-test-search button {
+    width: 15%;
+  }
+  .listLinkCenterHeader{
+    display: none;
+  }
+  .coverBoxCallHeader { 
+    margin-left: 25px;
+    display: none;
+}
+  .coverUserHeaderMB{
+    display: block;
+    margin-right: 10px;
+  }
+
+  .mainImgBoxPDH {
+    height: 160px;
+}
+.coverBoxPDH {
+    /*height: 310px;*/
+}
+
+  .gb-header_mptoto-center { 
+    padding: 4px 0px;
+  }
+.title-main-menu {
+    line-height: 40px;
+    font-size: 12px; 
+    padding-right: 0px;
+}
+.title-main-menu i {
+    font-size: 18px;
+    margin-top: 11px;
+  } 
+  .nav_horizontal_item_end{
+    display: none !important;
+  }
+  #nav_horizontal i { 
+    font-size: 20px;
+}
+.nav_horizontal_text p.newBigText {
+    font-weight: bold;
+    font-size: 12px;
+}
+#nav_horizontal .nav_horizontal_item { 
+    height: 35px;
+    margin-left: 20px; 
+}
+
+.mainMenuHeader>li { 
+    padding: 6px;
+}
+  .linkCate1MainMenu { 
+    font-size: 10px; 
+}
+.span_tab2 a, .span_tab a, .span_tab3 a, .span_tab4 a, .span_tab5 a, .span_tab6 a, .span_tab7 a, .span_tab8 a, .span_tab9 a, .span_tab10 a { 
+    padding: 10px 8px;
+    }
+    .span_tab, .span_tab2, .span_tab3, .span_tab4, .span_tab5, .span_tab6, .span_tab7, .span_tab8, .span_tab9, .span_tab10 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+  .active-span-tab2, .active-span-tab, .active-span-tab3, .active-span-tab4, .active-span-tab5, .active-span-tab6, .active-span-tab7, .active-span-tab8, .active-span-tab9, .active-span-tab10 { 
+    padding: 11px 12px !important;
+  }
+  .colOption { 
+    width: 25%;
+}
+.nameProductBoxPDH { 
+    font-size: 13px;
+    }
+    .priceSaleProductBoxPDH { 
+    font-size: 16px; 
+}
+.boxNewsHome_top {
+    height:70px;
+}
+.lineDateBoxNews { 
+    padding: 3px 10px 3px 10px; 
+    height: 28px;
+    line-height: 23px;
+    z-index: 1;
+    font-size: 14px; 
+}
+.lineDateBoxNews i { 
+    width: 37px;
+    height: 36px;
+    line-height: 30px;
+    margin-top: -3px;
+    margin-left: -10px;
+    float: left;
+    margin-right: 15px;
+}
+.titleBoxNewsHome h2 { 
+    font-size: 25px;
+    }
+.boxNewsHome_bottom h3 a {
+       font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    height: 40px;
+}
+.boxNewsHome_bottom p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+.nameOtherHome {
+    font-size: 16px;
+}
+.subOtherHome { 
+    font-size: 14px;
+  }
+
+  .boxShowHotHome img { 
+    height: 30px;
+    margin-right: 8px;
+}
+.boxShowHotHome a {
+    font-size: 12px;
+    line-height: 30px;
+}
+.contentRegFooterWeb { 
+    text-align: center;
+    }
+.copyrightFooter a { 
+  /*float: left;*/
+}
+.copyrightFooter a img {
+    float: left;
+}
+/*tuan*/
+#contact-i-1 {
+  display: none;
+}
+.titleLCH {
+  width: 11%;
+}
+.contentLCH {
+  width: 88%;
+}
+.btnBuyPD2 {
+  margin-top: 10px;
+}
+.gb-thongso-mota .tabbable-line > .nav-tabs > li.active {
+  margin-top: 6px;
+}
+}
+
+@media screen and (max-width: 860px) { 
+#banner_left_scroll, #banner_right_scroll{
+display: none;
+}
+}
+@media screen and (max-width: 768px) { 
+  .boxBannerTopHeader{
+    display: none;
+  }
+  .gb-topheader-mptoto{
+    display: none; 
+  }
+  .coverBoxCallHeader { 
+    float: right;
+}
+.gb-header_mptoto-bottom{
+  display: none;
+}
+.colOption {
+    width: 33.3333%;
+}
+.coverBoxNewsHome{
+  /*display: none;*/
+  border-radius: 5px;
+}
+  .mainImgBoxPDH {
+    height: auto;
+}
+.coverBoxPDH {
+    /*height: 360px;*/
+}
+.rowOtherHome{
+  margin: 20px 0 56px 0px;
+}
+.boxNewsHome_bottom{
+  padding: 5px 0px;
+}
+}
+
+@media screen and (max-width: 560px) {  
+.colOption {
+    width: 50%;
+}
+}
+/*tuan*/
+/*mobile tab*/
+@media screen and (max-width: 992px) {
+  .mobile-hide {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+/*ĐẠI ĐIỂM*/
+
+.gb-cart-dia-diem{
+  margin: 40px 0;
+  .gb-cart-dia-diem-item{
+    margin-bottom: 20px;
+  }
+  h4{
+    margin-bottom: 10px;
+    span{
+      color: $color-main;
+      font-weight: 600;
+    }
+  }
+  p{
+    font-size: 14px;
+    line-height: 26px;
+    span{
+      color: $color-1;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+  ul{
+    display: flow-root;
+    li{
+      width: 50%;
+      float: left;
+      font-size: 14px;
+      line-height: 26px;
+      span{
+        color: $color-1;
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }
+}
